@@ -25,7 +25,7 @@ bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 user_data = {}
 
 
-# OpenRouter API Call
+# OpenRouter API Call 
 def get_ai_response(prompt):
     try:
         headers = {
