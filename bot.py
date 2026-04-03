@@ -7,7 +7,7 @@ import requests
 # Setup Logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-logger.info("🤖 CareSync Bot started!")
+logger.info("🤖 CareSync Bot started!") 
 
 # Telegram Bot Token
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
