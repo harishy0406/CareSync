@@ -19,7 +19,7 @@ if not TELEGRAM_BOT_TOKEN:
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not OPENROUTER_API_KEY:
     logger.error("Missing OPENROUTER_API_KEY in environment variables.")
-    exit(1)
+    exit(1) 
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 user_data = {}
